@@ -1,0 +1,283 @@
+/* ===========================
+   GENERAL
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f4f4;
+    font-family:Georgia, serif;
+    color:#333;
+}
+
+/* ===========================
+   HEADER
+=========================== */
+
+.encabezado{
+
+    background:linear-gradient(180deg,#611232,#3A0B1E);
+
+    color:white;
+
+    padding:18px 0;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.20);
+
+}
+
+.logo{
+
+    width:170px;
+
+    height:auto;
+
+}
+
+.encabezado h1{
+
+    font-size:2.2rem;
+
+    font-weight:bold;
+
+    margin:0;
+
+}
+
+.encabezado p{
+
+    margin-top:5px;
+
+    font-size:1rem;
+
+}
+
+/* ===========================
+   TARJETA
+=========================== */
+
+.certificado{
+
+    border:none;
+
+    border-radius:12px;
+
+    background:white;
+
+    overflow:hidden;
+
+}
+
+.card-body{
+
+    padding:45px !important;
+
+}
+
+.titulo{
+
+    color:#611232;
+
+    font-weight:bold;
+
+    margin-bottom:45px;
+
+}
+
+/* ===========================
+   DATOS
+=========================== */
+
+.dato{
+
+    border-bottom:1px solid #e8e8e8;
+
+    padding:15px 0;
+
+}
+
+.dato span{
+
+    display:block;
+
+    color:#00695C;
+
+    font-weight:bold;
+
+    margin-bottom:6px;
+
+    font-size:1rem;
+
+}
+
+.dato p{
+
+    margin:0;
+
+    font-size:1rem;
+
+    line-height:1.5;
+
+    word-break:break-word;
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    margin-top:60px;
+
+    background:#611232;
+
+    color:white;
+
+    padding:35px 0;
+
+}
+
+footer h5{
+
+    margin-bottom:15px;
+
+    font-weight:bold;
+
+}
+
+footer a{
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    margin-bottom:8px;
+
+}
+
+footer a:hover{
+
+    text-decoration:underline;
+
+}
+
+.redes i{
+
+    font-size:28px;
+
+    margin-right:18px;
+
+    cursor:pointer;
+
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:991px){
+
+.logo{
+
+    width:140px;
+
+}
+
+.encabezado h1{
+
+    font-size:1.6rem;
+
+}
+
+.card-body{
+
+    padding:30px !important;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.encabezado{
+
+    text-align:center;
+
+}
+
+.encabezado .d-flex{
+
+    flex-direction:column;
+
+}
+
+.encabezado .ms-4{
+
+    margin-left:0 !important;
+
+    margin-top:15px;
+
+}
+
+.logo{
+
+    width:130px;
+
+}
+
+.encabezado h1{
+
+    font-size:1.4rem;
+
+}
+
+.encabezado p{
+
+    font-size:.9rem;
+
+}
+
+.certificado{
+
+    margin:10px;
+
+}
+
+.card-body{
+
+    padding:20px !important;
+
+}
+
+.dato{
+
+    padding:12px 0;
+
+}
+
+footer{
+
+    text-align:center;
+
+}
+
+.redes{
+
+    margin-top:20px;
+
+}
+
+.redes i{
+
+    margin:0 10px;
+
+}
+
+}
